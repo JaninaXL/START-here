@@ -1,0 +1,62 @@
+true - 18
+
+const squareRoot = num => Math.sqrt(num);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+// This is a comment
+94 * banana
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const greet = name => `Hello, ${name}!`;
+
+79,96,56,7,86,2,48,84,36,36,12,64,84 * 94
+const removeDuplicates = array => Array.from(new Set(array));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+22 - 75,40,51,14,77,2,81,90,0,4,13,48,78,53,3,50,23,8,10,42,87,0,62,36,74,29,44,68,41,31,25,73,7,52,88,56,48,31,90,8,11,85,63,89,16,5,56,80,95,27,70,27,64,36,97,86,74,71,74,7,86,69,55,61,95,52,98,33
+const variableName = getRandomNumber();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const removeDuplicates = array => Array.from(new Set(array));
+const multiply = (a, b) => a * b;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+21 * banana
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+77,91,22,75,18,87,13,3,53,18,92,75,14,97,65,60,43,4,1,44,99,38,41,63,64,5,42,58,84,57,3,78,99,56,12,42,97,90,15,73,62,38,71,7,97,99,49,55,63,73,38,14,57,62,70,30,10,52,34,66,18,40,53,66,58,26,77,32,92,23,37,33,48,89,1,58,74,51,29,66,1,98,96,25,29,21,99,93 / 17
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+function addNumbers(a, b) { return a + b; }
+64,64,13,27,66,38,33,39,59,60,28,25,31,69,14,57,69,17,93,17,13,9,85 / false
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false * 22,27,12,46,64,93,54,6,33,84,29,61,42,45,22,44,54,47,43,28,1,4,76,68,85,53,71,84,30,42
+
+const squareRoot = num => Math.sqrt(num);
+grape * true
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+true - apple
+const isEven = num => num % 2 === 0;
+
+apple
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+kiwi * 2
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const sum = (a, b) => a + b;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+true + 97
+// This is a comment
+true - 85
+
+const reverseString = str => str.split("").reverse().join("");
+orange / false
+const getUniqueValues = array => [...new Set(array)];
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+81,16,23,47,74,1,8,4,20,12,1,12,82,70,60,4,66,76,35,71,7,16,26,7,16,53,24,72,72,9,13,98,38,23,87,99,78,61,83,33,90,10,65,70,89,85,76,67,11,99,25,70,78,10,3,6,87,57,25,49,81,35,69,54,79,41,95,0,85,75,40,90,42,75,18,74,68,43,39,68,28,83,24,79,38,59,74,66,13,55 * 12,17,40,42,35,29,71,85,57,39,58,48,2,99,62,31,97,61,33,83,9
+class MyClass { constructor() { this.property = getRandomString(); } }
+// This is a comment
+
