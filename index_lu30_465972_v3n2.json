@@ -1,0 +1,41 @@
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+grape
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+banana - 93,79,38,64,71,36,52,53,23,21,21,14,63,92,39,6,58,90,9,94,77,75,82,66,75,83,80,89,14,52,15,94,58,37,1,96,37,15,93,70,59,31,53,32,47,2
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+52 + grape
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+kiwi
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+kiwi * true
+
+const getUniqueValues = array => [...new Set(array)];
+orange
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+grape
+
+function addNumbers(a, b) { return a + b; }
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+43 - 69,85,78,2,54,62,24,69,10,77,81,81,85,32,22,66,87,68,7,34,87,17,74,27,20,81,11,75,23,27,81,19,38,39,67,75,19,52,66,39,89,60,26
+const findSmallestNumber = numbers => Math.min(...numbers);
+78 + 22,74,14,6,6,76,91,30,39,46,24,9,39,12,88,10,13,67,5,76,99,54,21,3,57,5,21,94,45,3,85,62,18,6,21,56,55,72,29,93,66,30,68,38,35,62,44,51,98,95,81,37,28,18,73,66,84,60,81,46,72,27,50,62,30,2,3,10,41,28,98,98,35,57,35,95,49,33,86,86,77,17,57,40,42,46,58,60,68,30,12,64,23,32,27
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape
+
+const squareRoot = num => Math.sqrt(num);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const findSmallestNumber = numbers => Math.min(...numbers);
+62,61,42,15,5,0,82,47,28,40,28,71,36,49,1,39 + false
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
