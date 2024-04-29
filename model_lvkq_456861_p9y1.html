@@ -1,0 +1,6 @@
+apple
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+grape
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
